@@ -1,0 +1,125 @@
+@import "~/assets/variables.scss";
+
+// Custom style vuetify
+.v-file-input .v-file-input__text,
+.v-text-field input,
+.v-textarea textarea {
+  font-size: $font-size-root;
+}
+
+.v-text-field input::placeholder,
+.v-textarea textarea::placeholder {
+  font-size: $font-size-root;
+}
+
+.v-select__selection {
+  font-size: $font-size-root;
+}
+
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > td,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > td {
+  font-size: $font-size-root !important;
+}
+
+.custom-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: $font-size-root;
+}
+
+// ============================new custom ========
+#sidebar {
+  .v-list-item--active{
+    color: #ada393;
+  }
+ 
+  .theme--light.v-icon,
+  .theme--light.v-list-item {
+    // color: #ffffff;
+  }
+  .v-list-item:hover {
+    .theme--light.v-list-item--active:not(.v-list-item--disabled) {
+      color: #00aaf7;
+    }
+    
+    .theme--light.v-icon {
+      // color: #00aaf7;
+    }
+    color: #000000;
+    background: linear-gradient(274deg, rgba(255, 255, 255, 1) 42%, rgba(242, 242, 242, 1) 97%);
+  }
+}
+
+.mdi-circle-medium::before {
+  display: none;
+}
+
+// Table Button
+.table-button {
+  height: 30px !important;
+  min-width: 26px !important;
+  padding: 0 2px !important;
+
+  .v-icon.v-icon--dense {
+    font-size: 16px;
+  }
+}
+
+// Menus Popup List
+.v-menu__content {
+  .v-list .v-list-item--active {
+    color: $main-color;
+  }
+}
+
+.table-action-container {
+  .v-btn:not(.v-btn--round).v-size--default {
+    height: 30px !important;
+    min-width: 30px !important;
+  }
+}
+
+// Search in table
+.table-search {
+  max-width: 350px !important;
+  .v-input__slot {
+    min-height: 37.5px !important;
+  }
+}
+
+.table-filter-input {
+  .v-input__slot {
+    min-height: 37.5px !important;
+  }
+}
+
+.v-btn {
+  text-transform: capitalize;
+}
+
+.v-card__text {
+  padding-bottom: 35px;
+}
+
+.table-toolbar-sticky {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.v-slide-group__next,
+.v-slide-group__prev {
+  flex: 0 1 40px;
+  justify-content: center;
+  min-width: 40px;
+}
+
+.v-banner__wrapper {
+  padding: 0 !important;
+}
+
+.theme--light {
+  .v-chip:not(.v-chip--active) {
+    background: #f1f1f1;
+  }
+}

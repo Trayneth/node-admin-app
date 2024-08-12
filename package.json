@@ -1,0 +1,50 @@
+{
+  "name": "cambiz-express-admin-potal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=dev nuxt",
+    "build": "NODE_ENV=prod nuxt build",
+    "start": "NODE_ENV=prod nuxt start",
+    "generate": "NODE_ENV=prod nuxt generate"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@nuxtjs/auth-next": "5.0.0-1648802546.c9880dc",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/i18n": "^7.3.1",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/toast": "^3.3.1",
+    "@tiptap/extension-color": "^2.0.0-beta.220",
+    "@tiptap/extension-highlight": "^2.0.0-beta.220",
+    "@tiptap/extension-text-align": "^2.0.0-beta.31",
+    "@tiptap/extension-text-style": "^2.0.0-beta.220",
+    "@tiptap/pm": "^2.1.13",
+    "@tiptap/starter-kit": "^2.0.0-beta.191",
+    "@tiptap/vue-2": "^2.0.0-beta.84",
+    "ckeditor4-vue": "^1.0.5",
+    "cookie-universal-nuxt": "^2.2.1",
+    "core-js": "^3.19.3",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt": "^2.15.8",
+    "nuxt-route-meta": "^2.3.5",
+    "pdfjs": "^2.5.3",
+    "pdfjs-dist": "^4.3.136",
+    "prettier": "^2.8.4",
+    "pspdfkit": "^2024.3.2",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3"
+  }
+}
